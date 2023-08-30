@@ -156,8 +156,6 @@ public class AgregarProductos extends javax.swing.JFrame {
         String producto=jtProducto.getText();
           double precioS=0;
           try {
-            
-      
         precioS=Double.parseDouble(jtPrecio.getText());
         Object arr[]={producto,precioS,categorias};
         modelo.addRow(arr);
